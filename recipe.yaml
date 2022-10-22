@@ -62,7 +62,7 @@ tasks:
   ## Zombie stuff WIP
   - action: download_github
     src: https://github.com/wilroboly/esx-zombie
-    ref: main
+    ref: master
     dest: ./resources/[standalone]/esx-zombie
 
   - action: download_github

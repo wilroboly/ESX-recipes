@@ -15,7 +15,7 @@ tasks:
   
   # Download and prepare server.cfg / loadingscreen / database
   - action: download_github
-    src: https://github.com/esx-framework/ESX-recipes
+    src: https://github.com/wilroboly/ESX-recipes
     ref: legacy
     dest: ./tmp/recipe
 
@@ -37,7 +37,7 @@ tasks:
     dest: ./resources/[standalone]/bob74_ipl
 
   - action: download_github
-    src: https://github.com/esx-framework/esx-legacy
+    src: https://github.com/wilroboly/esx-legacy
     ref: main
     dest: ./tmp/esx
     
@@ -58,6 +58,12 @@ tasks:
     src: https://github.com/EntityEvolution/ev-hud
     ref: main
     dest: ./resources/[hud]/ev-hud
+    
+  ## Zombie stuff WIP
+  - action: download_github
+    src: https://github.com/wilroboly/esx-zombie
+    ref: main
+    dest: ./resources/[standalone]/esx-zombie
 
   - action: download_github
     src: https://github.com/Benzo00/esx-radio

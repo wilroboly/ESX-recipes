@@ -60,10 +60,10 @@ tasks:
     dest: ./resources/[hud]/ev-hud
     
   ## Zombie stuff WIP
-  - action: download_github
-    src: https://github.com/wilroboly/esx-zombie
-    ref: master
-    dest: ./resources/[standalone]/esx-zombie
+  #- action: download_github
+  #  src: https://github.com/wilroboly/esx-zombie
+  #  ref: master
+  #  dest: ./resources/[esx_addons]/esx-zombie
 
   - action: download_github
     src: https://github.com/Benzo00/esx-radio
